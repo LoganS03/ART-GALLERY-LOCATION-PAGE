@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+body{
+    width: 1440px;
+    margin: auto;
+    padding: 0;
+}
+
+.map{
+    background-image: url("../img/map.png");
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+
+    height: 600px;
+}
+.map_pointer{
+    width: 66px;
+    height: 88px;
+}
+
+.btn{
+    position: absolute;
+    top: 0;
+    left: 156px;
+
+    display: flex;
+
+    padding: 0;
+
+    background-color: black;
+    border: none;
+}
+.btn_back{
+    width: 56px;
+    height: 72px;
+
+    background: #151515;
+}
+.btn_back img{
+    width: 8px;
+    height: 24px;
+
+    padding: 24px;
+}
+.btn_text{
+    font-family: 'Big Shoulders Display';
+    font-weight: 800;
+    font-size: 20px;
+
+    padding: 24px 35px 24px 32px;
+
+    letter-spacing: 3.63636px;
+
+    color: #FFFFFF;
+}
+.btn:hover{
+    cursor: pointer;
+    transition: 1s;
+    background-color: #D5966C;
+}
+.btn:active{
+    transition: .1s ease;
+    background-color: #a57554;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 104px 165px 128px 165px;
+
+    background: black;
+}
+.content h1{
+    align-self: start;
+    width: 350px;
+    margin: 0;
+
+    font-family: 'Big Shoulders Display';
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 70px;
+    
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+.content div{
+    align-self: start;
+}
+.content div h3{
+    margin: 0;
+
+    font-family: 'Big Shoulders Display';
+    font-weight: 900;
+    font-size: 36px;
+    
+    text-transform: uppercase;
+    
+    color: #D5966C;
+}
+.content div p{
+    width: 540px;
+
+    font-family: 'Outfit';
+    font-weight: 300;
+    font-size: 22px;
+
+    color: #FFFFFF;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 165px;
+
+    background: #D5966C;
+}
+.image_text{
+    height: 58px;
+}
+.footer p{
+    font-family: 'Outfit';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    
+    margin: 0;
+    width: 430px;
+    
+    color: #151515;
+}
+.footer div a{
+    text-decoration: none;
+    padding-right: 20px;
+}
+.footer div a:last-child{
+    padding: 0;
+}
+.footer div a:hover{
+    cursor: pointer;
+    filter: invert(100%);
+}
